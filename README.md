@@ -2,6 +2,7 @@
 task-3-mckyle-s-group created by GitHub Classroom
 BookHub education website
 ---------------------------------------
+HOSTED URL: http://bookhub.infinityfreeapp.com/bookstore/login.php
 Accessing Database info
 ---------------------------------------
 * Step 1: Download XAMPP .Please note in order to view the data ,using WAMP wont work.The user will need download
