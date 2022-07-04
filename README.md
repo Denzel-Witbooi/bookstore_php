@@ -9,7 +9,7 @@ Accessing Database info
          the latest version of XAMPP.
 * Step 2: Open the XAMPP control panel on your pc 
 * Step 3: Click the start buttons for the Apache and Mysql  modules.
-* Step 4: Import the file named loadBookStore.sql into the phpmyAdmin database
+* Step 4: Import the file named bookstore.sql into the phpmyAdmin database
 
 
 Student Users 
