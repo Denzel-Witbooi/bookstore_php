@@ -15,7 +15,7 @@ if(isset($message)){
    
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo"> BookHub</a>
+         <a href="home.php" class="logo"></a>
 
          <nav class="navbar">
             <a href="home.php">home</a>
@@ -34,7 +34,9 @@ if(isset($message)){
                $cart_rows_number = mysqli_num_rows($select_cart_number); 
             ?>
             <a href="cart.php"> <i class="fas fa-shopping-cart"></i> <span>(<?php echo $cart_rows_number; ?>)  </span> </a>
-
+            <!-- <div class="logs">
+           <p> <a href="login.php">login</a> | <a href="register.php">register</a> </p>
+            </div> -->
          </div>
          
         

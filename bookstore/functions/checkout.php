@@ -35,7 +35,7 @@ function place_order($user_id)
            if(mysqli_num_rows($order_query) > 0){
               $message[] = 'order already placed!'; 
            }else{
-              mysqli_query($conn, "INSERT INTO `tblorder` (user_id, name, number, email, method, address, total_products, total_price, placed_on) VALUES('$user_id', '$name', '$number', '$email', '$method', '$address', '$total_products', '$cart_total', '$placed_on')") or die('query failed');
+              mysqli_query($conn, "INSERT INTO `tblorder`(user_id, name, number, email, method, address, total_products, total_price, placed_on) VALUES('$user_id', '$name', '$number', '$email', '$method', '$address', '$total_products', '$cart_total', '$placed_on')") or die('query failed');
               $message[] = 'order placed successfully!';
               mysqli_query($conn, "DELETE FROM `cart` WHERE user_id = '$user_id'") or die('query failed');
            }
