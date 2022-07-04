@@ -3,6 +3,7 @@ task-3-mckyle-s-group created by GitHub Classroom
 BookHub education website
 ---------------------------------------
 HOSTED URL: http://bookhub.epizy.com/bookstore/login.php
+![Uploading hosted.png…]()
 
 Accessing Database info
 ---------------------------------------
