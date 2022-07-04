@@ -14,18 +14,14 @@ Accessing Database info
 
 Student Users 
 ----------------------------------------
-* Username: Jane2022 password: password
-* Username: nas  password: password
-* Username: denny password: password 
-* Username: crliberty password:password
-* Usernaem: mickey  password: password
+* student email: ST101@mail.com password: password
+* student email: mckylesingh71@gmail.com  password: password
+
 
 Admin Login details
 ---------------------------------------
-* email: fred@mail.com  password:password
-* email: mickey@mail.com  password:password
-* email: connor@mail.com  password:password
-* email: denzel@mail.com  password:password
+* email: fred@mail.com password:password
+
 
 References
 ------------------------------------------
