@@ -26,7 +26,7 @@ Admin Login details
 * email: connor@mail.com  password:password
 * email: denzel@mail.com  password:password
 
-Refferences
+References
 ------------------------------------------
 https://www.w3schools.com/css/css_navbar.asp =>This was used to create the navbar 
 https://www.youtube.com/watch?v=GVwRDehnXjA => This was used to create the login and register pages 
