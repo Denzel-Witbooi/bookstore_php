@@ -46,7 +46,7 @@ if(isset($message)){
       <input type="password" name="password" placeholder="enter your password" required class="box">
       <input type="submit" name="submit" value="login now" class="btn">
       <p>don't have an account? <a href="register.php">register now</a></p>
-      <p>student? <a href="../login.php">log in now</a></p>
+      <p>Student? <a href="../login.php">login</a></p>
    </form>
 
 </div>

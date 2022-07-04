@@ -25,6 +25,33 @@ function delete_order()
 }
 // ORDERS END
 
+// status UPDATE AND DELETE
+function update_status()
+{
+    global $conn;
+    global $message;
+    if(isset($_POST['update_status'])){
+
+        $status_update_id = $_POST['user_id'];
+        $update_user = $_POST['update_user'];
+        mysqli_query($conn, "UPDATE `tbluser` SET user_status = '$update_user' WHERE user_id = '$status_update_id'") or die('query failed');
+        $message[] = 'user status has been updated!';
+     
+     }
+}
+function delete_status()
+{
+    global $conn;
+    if(isset($_GET['delete'])){
+        $delete_id = $_GET['delete'];
+        mysqli_query($conn, "DELETE FROM `tbluser` WHERE user_id = '$delete_id'") or die('query failed');
+        header('location:admin_users.php');
+     }
+}
+// status END
+
+
+
 // PRODUCTS (BOOKS) START
 function add_product()
 {

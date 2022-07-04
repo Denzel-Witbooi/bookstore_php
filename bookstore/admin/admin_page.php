@@ -58,7 +58,7 @@ if(!isset($admin_id)){
                };
             ?>
             <h1>R<?php echo $total_completed; ?>.00</h1>
-            <h3>completed payments</h3>
+            <h3>completed payments Profit</h3>
                     </div>
                     <div class="icon-case">
                         <img src="students.png" alt="">
@@ -69,16 +69,16 @@ if(!isset($admin_id)){
                     <div class="box">
                         <?php
                             $total_pendings = 0;
-                            $select_pending = mysqli_query($conn, "SELECT total_price FROM `tblorder` WHERE payment_status = 'pending'") or die('query failed');
+                            $select_pending = mysqli_query($conn, "SELECT COUNT(*)total FROM `tblorder` WHERE payment_status = 'pending'") or die('query failed');
                             if(mysqli_num_rows($select_pending) > 0){
                             while($fetch_pendings = mysqli_fetch_assoc($select_pending)){
-                                $total_price = $fetch_pendings['total_price'];
+                                $total_price = $fetch_pendings['total'];
                                 $total_pendings += $total_price;
                             };
                             };
                         ?>
-                        <h1>R<?php echo $total_pendings; ?>.00</h1>
-                        <h3>total pendings</h3>
+                        <h1><?php echo $total_pendings; ?></h1>
+                        <h3>total orders pending</h3>
                     </div>
                     <div class="icon-case">
                         <img src="teachers.png" alt="">
@@ -92,7 +92,7 @@ if(!isset($admin_id)){
                             $number_of_orders = mysqli_num_rows($select_orders);
                         ?>
                             <h1><?php echo $number_of_orders; ?></h1>
-                            <h3>order placed</h3>
+                            <h3>Total orders placed</h3>
                     </div>
                     <div class="icon-case">
                         <img src="schools.png" alt="">
