@@ -1,8 +1,8 @@
-# task-3-mckyle-s-group
-task-3-mckyle-s-group created by GitHub Classroom
-BookHub education website
----------------------------------------
-HOSTED URL: http://bookhub.epizy.com/bookstore/login.php
+## BookHub education website
+
+**HOSTED URL**: http://bookhub.epizy.com/bookstore/login.php
+</br>
+</br>
 ![hosted](https://user-images.githubusercontent.com/77748858/177196577-ee79e222-c368-4c75-99ef-0684373d5550.png)
 
 
@@ -13,17 +13,6 @@ Accessing Database info
 * Step 2: Open the XAMPP control panel on your pc 
 * Step 3: Click the start buttons for the Apache and Mysql  modules.
 * Step 4: Import the file named bookstore.sql into the phpmyAdmin database
-
-
-Student Users 
-----------------------------------------
-* student email: ST101@mail.com password: password
-* student email: mckylesingh71@gmail.com  password: password
-
-
-Admin Login details
----------------------------------------
-* email: fred@mail.com password:password
 
 
 References
